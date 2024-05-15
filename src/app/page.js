@@ -6,8 +6,8 @@ import RightSide from "@/components/layout/rightSide/RightSide";
 export default function Home() {
   return (
     <>
-      <ParticlesBackgroundDark />   
       <div className="flex flex-wrap ">
+        <ParticlesBackgroundDark />
         <LeftSide />
         <RightSide />
       </div>
